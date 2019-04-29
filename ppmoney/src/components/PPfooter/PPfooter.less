@@ -1,4 +1,74 @@
 :global {
+    //全局样式
+    .p-b30 {
+        padding-bottom: 30px;
+    }
+    .t-r {
+        text-align: right;
+    }
+    .t-c {
+        text-align: center;
+    }
+    .p-t10 {
+        padding-top: 10px;
+    }
+    .m-tb10 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .f-s24 {
+        font-size: 24px;
+    }
+    .u-10 {
+        width: 103px;
+        height: 37px;
+        background-position: 0 -94px;
+    }
+    .u-11 {
+        width: 103px;
+        height: 37px;
+        background-position: -112px -94px;
+    }
+    .u-12 {
+        width: 103px;
+        height: 37px;
+        background-position: -225px -94px;
+    }
+    .u-13 {
+        width: 103px;
+        height: 37px;
+        background-position: -338px -94px;
+    }
+    .u-14 {
+        width: 103px;
+        height: 37px;
+        background-position: -454px -94px;
+    }
+    .u-15 {
+        width: 103px;
+        height: 37px;
+        background-position: -564px -94px;
+    }
+    .u-16 {
+        width: 103px;
+        height: 37px;
+        background-position: -680px -94px;
+    }
+    .u-17 {
+        width: 103px;
+        height: 37px;
+        background-position: -799px -94px;
+    }
+    u {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        background-image: url(./u-spirits_d9193eb.png);
+    }
+    //-------------------------
   .g-ft-wrap {
     padding: 45px 0 0;
     background-color: #FFF;
@@ -8,5 +78,148 @@
   .g-ft {
     width: 1170px;
     margin: 0 auto;
+
+    .ft-nav {
+      float: left;
+
+      ul {
+        a {
+          line-height: 28px;
+          font-size: 13px;
+          color: #abb2ba;
+        }
+      }
+
+      >li {
+        float: left;
+        font-size: 15px;
+        font-weight: 700;
+        color: #333;
+
+        +li {
+          padding-left: 39px;
+        }
+
+        .ft-info {
+          overflow: hidden;
+          display: inline-block;
+
+          >ul {
+            padding-top: 15px;
+            text-align: center;
+          }
+        }
+
+        .iconfont {
+          float: left;
+          line-height: 23px;
+          padding-right: 15px;
+          font-size: 23px;
+          color: #249be0;
+        }
+      }
+
+      >li:first-child {
+        padding-left: 0;
+      }
+    }
+    //二维码
+    .ft-qr {
+        padding: 0 32px;
+        margin-left: 35px;
+        border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+    }
+    //客服
+    .kf {
+        font-size: 14px;
+        >div {
+            letter-spacing: 1px;
+            color: #abb2ba;
+            line-height: 30px;
+        }
+        >p {
+            letter-spacing: 1px;
+            color: #abb2ba;
+            line-height: 30px;
+        }
+        .tip {
+            letter-spacing: 4px;
+        }
+        .sub-tip {
+            font-size: 12px;
+            margin-top: -4px;
+        }
+        .kf-num {
+            color: #1095e2;
+            font-weight: 700;
+        }
+        .onlinekf {
+            color: #0f95e3;
+            cursor: pointer;
+            .iconfont {
+                font-size: 26px;
+                vertical-align: middle;
+            }
+        }
+        .kf-nav{
+            li {
+                float: right;
+                padding-left: 5px;
+                line-height: 35px;
+            }
+            .wx {
+                position: relative;
+                &:hover .u-code{
+                    display: block;
+                }
+                .iconfont {
+                    font-family: iconfont !important;
+                    font-size: 35px;
+                    color: #249be0;
+                    font-style: normal;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                }
+                .u-code {
+                    display: none;
+                    position: absolute;
+                    top: 34px;
+                    left: -53px;
+                    z-index: 999;
+                }
+                .u-g-wx {
+                    width: 161px;
+                    height: 202px;
+                    background-position: -390px -252px;
+                }
+                .u-code {
+                    background-image: url(../PPheade/qr-code_20f77e4.png);
+                }
+                
+                
+            }
+        }
+    }
+    //最底部
+    .ft-aut {
+        padding-top: 60px;
+        padding-bottom: 25px;
+    }
+    .link-nav {
+        text-align: center;
+        li {
+            display: inline-block;
+            padding-left: 12px;
+        }
+        
+    }
+    .agency-box {
+        line-height: 2;
+        color: #abb2ba;
+        a {
+            color: #abb2ba;
+        }
+    }
   }
 }
