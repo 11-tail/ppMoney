@@ -1,0 +1,215 @@
+:global {
+
+  //全局样式
+  .cf:before,
+  .cf:after {
+    content: "";
+    display: table;
+  }
+
+  .cf:after {
+    clear: both;
+  }
+
+  .fl {
+    float: left;
+    display: inline;
+  }
+
+  .fr {
+    float: right;
+    display: inline;
+  }
+
+  .color-b1b1b1 {
+    color: #b1b1b1;
+  }
+
+  .strong {
+    font-weight: 700;
+  }
+
+  .iconfont {
+    font-family: iconfont !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .p-rel {
+    position: relative;
+  }
+
+  //----------------
+  .g_site_nav_wrap {
+    height: 35px;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    color: #666;
+
+    .phone {
+      height: 35px;
+    }
+  }
+
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .g_site_nav {
+    height: 35px;
+    line-height: 35px;
+    z-index: 1001;
+
+    .f-s19 {
+      font-size: 16px;
+      vertical-align: middle;
+    }
+
+    li {
+      position: relative;
+      float: left;
+      color: #778493;
+      z-index: 121;
+      height: 35px;
+
+      .own-acount {
+        margin-left: 10px;
+        padding: 4px 10px;
+        border-radius: 4px;
+        color: #0f91dd;
+        border: 1px solid #0f91dd;
+      }
+    }
+
+    .site-nav-r {
+      a {
+        color: #778493;
+        padding: 0 8px;
+
+        &:hover {
+          color: #1194d3;
+        }
+      }
+    }
+
+    .site-nav-l {
+      a {
+        padding-left: 10px;
+      }
+
+      .menu.g-code {
+        position: relative;
+        z-index: 10;
+
+        &:hover .u-code {
+          display: block;
+        }
+
+        .icon-weixin {
+          font-size: 21px;
+          color: #0f91dd;
+        }
+
+        .u-code {
+          display: none;
+          position: absolute;
+          top: 34px;
+          left: -56px;
+          z-index: 999;
+        }
+
+        .u-code {
+          background-image: url(./qr-code_20f77e4.png);
+        }
+
+        .u-g-wx {
+          width: 161px;
+          height: 202px;
+          background-position: -390px -252px;
+        }
+      }
+    }
+  }
+
+  //导航条
+  .g-logo {
+    margin-top: 32px;
+    float: left;
+  }
+
+  .g-nav-wrap {
+    height: 150px;
+    background: #fff;
+
+    .mod {
+      position: relative;
+      height: 100px;
+    }
+
+    .btn-customer {
+      display: block;
+      width: 130px;
+      height: 36px;
+      margin-top: 34px;
+      line-height: 36px;
+      color: #888;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      text-align: center;
+      background-color: #fff;
+    }
+  }
+
+  .g-nav-bar {
+    height: 50px;
+    line-height: 50px;
+    background-color: #018eed;
+  }
+
+  .g-nav {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 101;
+
+    .nav-c li:nth-child(1) {
+      color: #fff;
+      background-color: #0078dd;
+    }
+
+    .nav-c>.item {
+      position: relative;
+      z-index: 9;
+      float: left;
+      text-align: center;
+
+      &:hover>a {
+        color: #fff;
+        background-color: #0078dd;
+      }
+
+      >a {
+        float: left;
+        padding: 0 35px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+      }
+
+      .active>a {
+        color: #fff;
+        background-color: #0078dd;
+      }
+    }
+  }
+  .mainless{
+    height: 1200px;
+    width: 100%;
+  }
+}
+
