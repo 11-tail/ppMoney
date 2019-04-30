@@ -6,6 +6,11 @@ import LoginToRegister from './components/LoginToRegister/LoginToRegister';
 import RegisterHome from './routes/RegisterHome/RegisterHome';
 import LoginPage from './routes/LoginPage/LoginPage';
 import LonginHome from './routes/LonginHome/LonginHome';
+// 我要借款页面
+import LoanPage from './routes/LoanPage/LoanPage';
+// 我要借出页面
+import LendPage from './routes/LendPage/LendPage'
+
 function RouterConfig({ history }) {
   return (
     <Router history={history}>
@@ -16,6 +21,8 @@ function RouterConfig({ history }) {
         <Route path="/registerHome" exact component={RegisterHome} />
         <Route path="/loginPage" exact component={LoginPage} />
         <Route path="/longinHome" exact component={LonginHome} />
+        <Route path="/loan" exact component={LoanPage} />
+        <Route path="/lend" exact component={LendPage} />
       </Switch>
     </Router>
   );
