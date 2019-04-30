@@ -1,0 +1,179 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Loancontainer{
+    width: 1170px;
+    margin: 0 auto;
+    /* background: #FF7800 */
+}
+.loanBanner{
+    width: 100%;
+    height:385px;
+    position: relative;
+    margin-bottom: 8px;
+}
+.bannerImg{
+    margin: 0 auto;
+    /* width: 1719px; */
+    /* width: 100%; */
+    height: 385px;
+    position: absolute; 	/*绝对定位*/
+    left: 50%;          	/*距离左边50% */
+    margin-left: -960px;
+    cursor: pointer;
+    background-position: center center;
+}
+.bb{
+    width: 100%;
+    height: 100px;
+    background: #018eed;
+}
+/* 遮罩小框 */
+.main{
+    position: absolute;
+    width: 1168px;
+    top: 33px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFF;
+}
+.register{
+    position: absolute;
+    right: 0;
+    margin: 0 auto;
+    width: 300px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    text-align: center;
+}
+.registerH3{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 54px;
+    padding-bottom: 30px;
+    width: 213px;
+    color: #FFF;
+}
+.registerP{
+    padding-bottom: 34px;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.registerBtu{
+    margin: 0 auto;
+    width: 250px;
+    height: 44px;
+    background-color: #FF7800;
+    font-size: 18px;
+    line-height: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* banner下面的借款介绍 */
+.Introduce{
+    width: 100%;
+    height: 144px;
+    background: #FFF;
+}
+.IntroduceIcon{
+    float: left;
+    height: 144px;
+    width: 292px;
+    box-sizing: border-box;
+    padding: 24px 0;
+}
+.IconChild1{
+    float: left;
+    width: 101px;
+    height: 96px;
+}
+.IconChild2{
+    float: left;
+    width: 121px;
+    height: 96px;
+    box-sizing: border-box;
+    padding: 14px 0;
+}
+.title1{
+    font-size: 20px;
+    color: #444;
+    letter-spacing: -0.27px;
+    padding-bottom: 4px;
+}
+.title2{
+    font-size: 13px;
+    color: #999;
+}
+
+/* main2 */
+.main2{
+    box-sizing: border-box;
+    padding:60px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.main2 h3{
+    box-sizing: border-box;
+    height: 42px;
+    border-left: 8px solid #018eed;
+    line-height: 42px;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+main2Img{
+    overflow: hidden;
+}
+.main2Img1{
+    float: left;
+    width: 572px;
+    height: 240px;
+    padding-bottom: 24px;
+    padding-right: 13px;
+    cursor: pointer;
+}
+
+/* main3 */
+.main3{
+    box-sizing: border-box;
+    /* padding:60px 0; */
+    width: 100%;
+    overflow: hidden;
+}
+.main3 h3{
+    box-sizing: border-box;
+    height: 42px;
+    border-left: 8px solid #018eed;
+    line-height: 42px;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.main3Text h4{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #444444
+}
+.main3Text1{
+    width: 520px;
+    height: 134px;
+    float: left;
+    margin-right: 25px;
+}
+.main3Text2{
+    font-size: 14px;
+    color: #666666
+}

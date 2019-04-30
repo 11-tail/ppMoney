@@ -1,0 +1,163 @@
+html,body{
+    width: 100%;
+}
+.tip{
+    height: 50px;
+    padding-left: 30px;
+    line-height: 50px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 17px;
+}
+/* bannre图片 */
+.lenRigBanner{
+    padding: 10px 30px;
+}
+/* 借款人信息 */
+.com{
+    padding: 0 30px;
+    overflow: hidden;
+}
+.paper{
+    position: relative;
+    width: 598px;
+    border: 1px solid #f1f1f1;
+    height: 208px;
+    float: left;
+}
+.serviceTo{
+    width: 272px;
+    height: 208px;
+    border: 1px solid #f1f1f1;
+    float: right;
+}
+.paperTit{
+    font-size: 16px;
+    line-height: 30px;
+}
+.paperTit2{
+    display: inline-block;
+    padding: 0 20px;
+    background: #fc5a5a;
+    color: #fff;
+    font-weight: 700;
+}
+/* 具体信息 */
+.textAct{
+    height: 150px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.textAct ul{
+    line-height: 30px;
+    padding: 0 10px;
+}
+.fc{
+    position: relative;
+    padding-left: 20px;
+    height: 30px;
+    overflow: hidden;
+    color: #333333;
+    font-size: 12px;
+}
+
+/* 服务介绍 */
+.serviceTo p{
+    padding: 10px 20px;
+    text-indent: 2em;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* 立即借出 */
+.padd{
+    margin-top: 10px;
+    border: 1px solid #f1f1f1;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.xuanxian1{
+    padding-left: 110px;
+    padding-top: 5px;
+    
+}
+/* 最后部分 */
+.lose{
+    border: 1px solid #f1f1f1;
+    border-top: 0;
+}
+.lendLeft{
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 100px;
+    font-size: 14px;
+    color: #666;
+    float: left;
+    /* display: inline; */
+}
+.lendRight{
+    padding-top: 20px;
+    width: 430px;
+    padding-right: 20px;
+    float: right;
+    /* display: inline; */
+}
+.lendRight h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+}
+.lendRight ul{
+    line-height: 30px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.lendRight ul li{
+    padding-left: 25px;
+    position: relative;
+    width: 190px;
+    float: left;
+}
+.lendRight ul li img{
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 8px;
+}
+.lendLeft dl dd{
+    display: block;
+    height: 40px;
+    padding-bottom: 18px;
+}
+.lendLeftInput{
+    position: absolute;
+    line-height: 40px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 700;
+}
+
+
+
+
+.noList{
+    height: 315px;
+    background: url(../../assets/LoanLmg/lendtu.png) 480px center no-repeat;
+    padding: 0 480px 0 60px;
+    text-align: center;
+    text-align: left;
+}
+.noList h3{
+    padding: 90px 0 20px;
+    color: #0a75ff;
+    font-size: 28px;
+}
+.noList p{
+    font-size: 14px;
+    color: #7a7a7a;
+}
