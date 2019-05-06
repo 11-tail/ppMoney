@@ -11,6 +11,7 @@ import LoanPage from './routes/LoanPage/LoanPage';
 // 我要借出页面
 import LendPage from './routes/LendPage/LendPage'
 import BrandNews from './routes/BrandNews/BrandNews'
+import Sociology from './routes/Sociology/Sociology'
 
 function RouterConfig({ history }) {
   return (
@@ -25,6 +26,7 @@ function RouterConfig({ history }) {
         <Route path="/loan" exact component={LoanPage} />
         <Route path="/lend" exact component={LendPage} />
         <Route path="/brand" exact component={BrandNews} />
+        <Route path="/sociology" exact component={Sociology} />
       </Switch>
     </Router>
   );
