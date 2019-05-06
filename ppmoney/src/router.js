@@ -10,6 +10,7 @@ import LonginHome from './routes/LonginHome/LonginHome';
 import LoanPage from './routes/LoanPage/LoanPage';
 // 我要借出页面
 import LendPage from './routes/LendPage/LendPage'
+import BrandNews from './routes/BrandNews/BrandNews'
 
 function RouterConfig({ history }) {
   return (
@@ -23,6 +24,7 @@ function RouterConfig({ history }) {
         <Route path="/longinHome" exact component={LonginHome} />
         <Route path="/loan" exact component={LoanPage} />
         <Route path="/lend" exact component={LendPage} />
+        <Route path="/brand" exact component={BrandNews} />
       </Switch>
     </Router>
   );

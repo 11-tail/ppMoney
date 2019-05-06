@@ -1,7 +1,7 @@
 import dva from 'dva';
 import './index.css';
 // 全局antd样式
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 // 1. Initialize
 const app = dva();
 
@@ -10,7 +10,7 @@ const app = dva();
 
 // 3. Model
 app.model(require('./models/example').default);
-app.model(require('./models/LendPage/Borrower').default);
+app.model(require('./models/lendpage/borrower').default);
 
 // 4. Router
 app.router(require('./router').default);

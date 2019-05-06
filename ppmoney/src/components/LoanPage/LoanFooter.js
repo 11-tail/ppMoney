@@ -1,9 +1,9 @@
 import React from 'react';
-import LfooterSty from './LoanFooter.css'
+import './LoanFooter.less'
 const LoanFooter = () => {
   return (
-    <div className={LfooterSty.without}>
-        <div className={LfooterSty.Loancontainer}>
+    <div className="without">
+        <div className="Loancontainer">
             <div>版权所有 (C) PPmoney.com 
                 <a href="http://www.miibeian.gov.cn/"> 粤ICP备 12030634号</a>&nbsp;&nbsp;
                 <a href="https://www.ppmoney.com/special/edi/edi.html">增值电信业务经营许可证：粤B2-20150286</a></div>

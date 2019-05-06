@@ -1,6 +1,6 @@
 import React from 'react';
 // import { connect } from 'dva';
-import lendcss from './LendPage.css';
+import './LendPage.less';
 import LendRight from '../../components/LendPage/LendRight'
 import PPheade from '../../components/PPheade/PPhead'
 import PPfooter from '../../components/PPfooter/PPfooter'
@@ -48,8 +48,8 @@ export default class LendPage extends React.Component {
                     {/* lend的main部分 */}
                     <div>
                         {/* main的nav */}
-                        <div className={lendcss.mainNav}>
-                            <div className={lendcss.Lendcontainer}>
+                        <div className="mainNav">
+                            <div className="Lendcontainer">
                                 <ul>
                                     <li>您所在的位置:</li>
                                     <li><a href="" >首页</a> > </li>
@@ -59,33 +59,33 @@ export default class LendPage extends React.Component {
                             </div>
                         </div>
                         {/* main主要内容 */}
-                        <div className={lendcss.mainContent}>
-                            <div className={lendcss.Lendcontainer}>
+                        <div className="mainContent">
+                            <div className="Lendcontainer">
                                 {/* 左 */}
-                                <div className={lendcss.LendConLeft}>
-                                    <ul className={lendcss.Lendlist}>
+                                <div className="LendConLeft">
+                                    <ul className="Lendlist">
                                         <li style={{ backgroundColor: this.state.border1 ? "#028eed" : '' }}>
                                             <a href="" onClick={this.onButtonClock1.bind(this)}>
-                                                <h2 className={lendcss.listTitle} style={{ color: this.state.border1 ? "#fff" : '' }}>安心投服务<span className={lendcss.TitleSpan}>推荐</span></h2>
-                                                <div className={lendcss.tip}>自动到期，安心出借</div>
+                                                <h2 className="listTitle" style={{ color: this.state.border1 ? "#fff" : '' }}>安心投服务<span className="TitleSpan">推荐</span></h2>
+                                                <div className="tip">自动到期，安心出借</div>
                                             </a>
                                         </li>
                                         <li style={{ backgroundColor: this.state.border2 ? "#028eed" : '' }}>
                                             <a href="" onClick={this.onButtonClock2.bind(this)}>
-                                                <h2 className={lendcss.listTitle} style={{ color: this.state.border2 ? "#fff" : '' }}>自助投服务</h2>
-                                                <div className={lendcss.tip}>让出借更轻松</div>
+                                                <h2 className="listTitle" style={{ color: this.state.border2 ? "#fff" : '' }}>自助投服务</h2>
+                                                <div className="tip">让出借更轻松</div>
                                             </a>
                                         </li>
                                         <li style={{ backgroundColor: this.state.border3 ? "#028eed" : '' }}>
                                             <a href="" onClick={this.onButtonClock3.bind(this)}>
-                                                <h2 className={lendcss.listTitle} style={{ color: this.state.border3 ? "#fff" : '' }}>散标专区</h2>
-                                                <div className={lendcss.tip}>直接选择一键出借</div>
+                                                <h2 className="listTitle" style={{ color: this.state.border3 ? "#fff" : '' }}>散标专区</h2>
+                                                <div className="tip">直接选择一键出借</div>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
                                 {/* 右 */}
-                                <div className={lendcss.LendConRight}>
+                                <div className="LendConRight">
                                     <LendRight />
                                     {/* <LendRight3 /> */}
                                 </div>
