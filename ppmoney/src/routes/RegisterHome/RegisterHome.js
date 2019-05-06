@@ -4,9 +4,11 @@ import { connect } from 'dva';
 
 import RegistrationPage from '../RegistrationPage/RegistrationPage';
 import LoginToRegister from '../../components/LoginToRegister/LoginToRegister';
+import PPhead from '../../components/PPheade/PPhead';
 const RegisterHome = () => {
   return (
     <div>
+        <PPhead/>
         <RegistrationPage />
         <LoginToRegister />
 

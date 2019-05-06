@@ -1,0 +1,502 @@
+.mians {
+  width: 100%;
+  background-color: #f1f2f6;
+  background-size: 100% 100%;
+  clear: both;
+}
+.mians .sxp_dui {
+  width: 980px;
+  height: 360px;
+  margin: auto;
+  clear: both;
+  background-color: pink;
+}
+.mians .sxp_dui .dui_focus {
+  width: 630px;
+  height: 330px;
+  position: relative;
+  overflow: hidden;
+  background: #f15757;
+  padding: 15px;
+  float: left;
+}
+.mians .sxp_dui .sxp_duir {
+  float: right;
+  width: 270px;
+  background: #fff;
+  padding: 15px;
+  height: 330px;
+  overflow: hidden;
+}
+.mians .sxp_dui .sxp_duir .sxp_duir {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.mians .sxp_dui .sxp_duir .sxp_duir .frameDbbWzc {
+  background-image: none !important;
+  border: 0 none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-width: 0px;
+  height: auto;
+}
+.mians .sxp_dui .sxp_duir .sxp_duir .frameDbbWzc .frameDbbWzc_left {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.mians .sxp_dui .sxp_duir .sxp_duir .frameDbbWzc .frameDbbWzc_left dl {
+  zoom: 1;
+}
+.mians .sxp_dui .sxp_duir .sxp_duir .frameDbbWzc .frameDbbWzc_left dl dt {
+  text-align: center;
+  padding: 8px 0 5px;
+  font-weight: 700;
+}
+.mians .sxp_dui .sxp_duir .sxp_duir .frameDbbWzc .frameDbbWzc_left dl dt a {
+  font-size: 18px;
+  color: #333;
+  line-height: 40px;
+}
+.mians .sxp_dui .sxp_duir .sxp_duir .frameDbbWzc .frameDbbWzc_left dl dd {
+  width: 100%;
+  color: #666;
+  line-height: 24px;
+  font-size: 12px;
+  padding: 0 15px 0 15px;
+}
+.mians .clear {
+  clear: both;
+  margin: auto;
+  height: 20px;
+}
+.mians .modulex {
+  width: 980px;
+  margin: auto;
+  clear: both;
+  overflow: hidden;
+}
+.mians .modulex .modulexleft {
+  width: 660px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.mians .modulex .modulexleft .sxp_hotlu {
+  width: 620px;
+  height: 235px;
+  float: left;
+  overflow: hidden;
+  background: #FFF;
+  margin-bottom: 20px;
+  padding: 5px 19px 20px 20px;
+  border-bottom: 1px solid #EEE;
+  border-right: 1px solid #EEE;
+  box-shadow: 1px 1px 0px 0px #F5F5F5;
+}
+.mians .modulex .modulexleft .sxp_hotlu h2 {
+  width: 620px;
+  height: 60px;
+  line-height: 60px;
+  float: left;
+  overflow: hidden;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl {
+  width: 620px;
+  height: 175px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl dd {
+  width: 300px;
+  height: 175px;
+  float: left;
+  overflow: hidden;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl dt {
+  width: 300px;
+  height: 175px;
+  float: right;
+  overflow: hidden;
+  font-weight: normal;
+  padding: 0;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl dt a {
+  color: #667EBD;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl dt span {
+  float: right;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl dt span .hotlu3 {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  margin-left: 5px;
+  padding-left: 22px;
+  color: #AAB2BD;
+  font-size: 12px;
+  font-style: normal;
+  background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/newsIcon.png) no-repeat scroll 0 0 transparent;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl dt span .hotlu4 {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  margin-left: 5px;
+  font-size: 12px;
+  padding-left: 22px;
+  color: #AAB2BD;
+  font-style: normal;
+  background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/newsIcon.png) no-repeat scroll 0 -36px transparent;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl dt .hotlu1 {
+  color: #BEBDBD;
+  width: 300px;
+  height: 18px;
+  line-height: 16px;
+  float: left;
+  font-size: 12px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl dt .hotlu2 {
+  width: 300px;
+  height: 120px;
+  line-height: 24px;
+  color: #706F6F;
+  font-size: 14px;
+  font-weight: normal;
+  float: left;
+  padding-bottom: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.mians .modulex .modulexleft .sxp_hotlu dl dt .hotlu2 a {
+  padding-left: 15px;
+  font-size: 12px;
+  color: #667EBD;
+  font-weight: normal;
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+}
+.mians .modulex .modulexright {
+  float: right;
+  width: 300px;
+  overflow: hidden;
+}
+.mians .modulex .modulexright .blank {
+  width: 300px;
+  float: left;
+  height: 30px;
+  margin-bottom: 20px;
+  background: #FFF;
+}
+.mians .modulex .modulexright .sxpright_1 {
+  width: 300px;
+  height: 410px;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: #FFF;
+}
+.mians .modulex .modulexright .sxpright_1 h2 {
+  color: #333;
+  font-size: 18px;
+  float: left;
+  width: 270px;
+  height: 52px;
+  line-height: 52px;
+  font-weight: normal;
+  padding: 0 15px;
+  border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 8px;
+}
+.mians .modulex .modulexright .sxpright_1 .sxpztarea {
+  height: 318px;
+  width: 270px;
+  float: left;
+  overflow: hidden;
+  padding: 11px 15px 20px 15px;
+}
+.mians .modulex .modulexright .sxpright_1 .sxpztarea dl {
+  margin: 0 0 24px 0;
+  padding: 0;
+  width: 270px;
+  height: 90px;
+  overflow: hidden;
+}
+.mians .modulex .modulexright .sxpright_1 .sxpztarea dl .m {
+  margin: 0 15px 0 0;
+  padding: 0;
+  float: left;
+}
+.mians .modulex .modulexright .sxpright_1 .sxpztarea dl dt {
+  padding: 0 0 10px 0;
+}
+.mians .modulex .modulexright .sxpright_1 .sxpztarea dl dt a {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #333;
+}
+.mians .modulex .modulexright .sxpright_1 .sxpztarea dl dd {
+  font-size: 12px;
+  color: #999;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+.mians .modulex .modulexright .sxpright_2 {
+  width: 300px;
+  height: 422px;
+  float: left;
+  overflow: hidden;
+  background: #FFF;
+  margin-bottom: 20px;
+}
+.mians .modulex .modulexright .sxpright_2 h2 {
+  color: #333;
+  font-size: 18px;
+  float: left;
+  width: 270px;
+  height: 52px;
+  line-height: 52px;
+  font-weight: normal;
+  padding: 0 15px;
+  border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 8px;
+}
+.mians .modulex .modulexright .sxpright_2 .sxpcaiarea {
+  height: 360px;
+  float: left;
+  width: 245px;
+  overflow: hidden;
+  padding: 0 15px 0 40px;
+  background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/sxp_klist.png) no-repeat scroll 15px 12px transparent;
+}
+.mians .modulex .modulexright .sxpright_2 .sxpcaiarea ul {
+  list-style: none;
+}
+.mians .modulex .modulexright .sxpright_2 .sxpcaiarea ul li {
+  width: 245px;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  overflow: hidden;
+  overflow: hidden;
+}
+.mians .modulex .modulexright .sxpright_2 .sxpcaiarea ul li a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+.mians .modulex .modulexright .sxpright_3 {
+  width: 300px;
+  height: 425px;
+  float: left;
+  overflow: hidden;
+  background: #FFF;
+  margin-bottom: 20px;
+}
+.mians .modulex .modulexright .sxpright_3 h2 {
+  color: #333;
+  font-size: 18px;
+  float: left;
+  width: 270px;
+  height: 52px;
+  line-height: 52px;
+  font-weight: normal;
+  padding: 0 15px;
+  border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 8px;
+}
+.mians .modulex .modulexright .sxpright_3 .sxpcaiarea {
+  height: 360px;
+  float: left;
+  width: 245px;
+  overflow: hidden;
+  padding: 0 15px 0 40px;
+  background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/sxp_klist.png) no-repeat scroll 15px 12px transparent;
+}
+.mians .modulex .modulexright .sxpright_3 .sxpcaiarea ul {
+  list-style: none;
+}
+.mians .modulex .modulexright .sxpright_3 .sxpcaiarea ul li {
+  width: 245px;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  overflow: hidden;
+  overflow: hidden;
+}
+.mians .modulex .modulexright .sxpright_3 .sxpcaiarea ul li a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+.mians .modulex .modulexright .sxpright_4 {
+  width: 300px;
+  height: 413px;
+  float: left;
+  overflow: hidden;
+  background: #FFF;
+  margin-bottom: 20px;
+}
+.mians .modulex .modulexright .sxpright_4 h2 {
+  color: #333;
+  font-size: 18px;
+  float: left;
+  width: 270px;
+  height: 52px;
+  line-height: 52px;
+  font-weight: normal;
+  padding: 0 15px;
+  border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 8px;
+}
+.mians .modulex .modulexright .sxpright_4 .sxpcaiarea {
+  height: 360px;
+  float: left;
+  width: 245px;
+  overflow: hidden;
+  padding: 0 15px 0 40px;
+  background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/sxp_klist.png) no-repeat scroll 15px 12px transparent;
+}
+.mians .modulex .modulexright .sxpright_4 .sxpcaiarea ul {
+  list-style: none;
+}
+.mians .modulex .modulexright .sxpright_4 .sxpcaiarea ul li {
+  width: 245px;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  overflow: hidden;
+  overflow: hidden;
+}
+.mians .modulex .modulexright .sxpright_4 .sxpcaiarea ul li a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+.mians .modulex .modulexright .sxpright_5 {
+  width: 300px;
+  height: 298px;
+  float: left;
+  overflow: hidden;
+  background: #FFF;
+  margin-bottom: 20px;
+}
+.mians .modulex .modulexright .sxpright_5 h2 {
+  color: #333;
+  font-size: 18px;
+  float: left;
+  width: 270px;
+  height: 52px;
+  line-height: 52px;
+  font-weight: normal;
+  padding: 0 15px;
+  border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 8px;
+}
+.mians .modulex .modulexright .sxpright_5 .sxpgjcc {
+  width: 285px;
+  height: 205px;
+  float: left;
+  overflow: hidden;
+  padding: 0 0 0 15px;
+}
+.mians .modulex .modulexright .sxpright_5 .sxpgjcc a {
+  display: inline-block;
+  margin: 0 10px 15px 0;
+  padding: 0 20px;
+  background: #EEE;
+  color: #333;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+}
+.mians .modulex .sxp_ylian {
+  width: 980px;
+  height: 124px;
+  clear: both;
+  background: #fff;
+}
+.mians .modulex .sxp_ylian h2 {
+  color: #333;
+  font-size: 18px;
+  float: left;
+  width: 950px;
+  height: 52px;
+  line-height: 52px;
+  font-weight: normal;
+  padding: 0px 15px;
+  background: #FFF;
+}
+.mians .modulex .sxp_ylian .title {
+  padding: 0 10px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 32px;
+  overflow: hidden;
+}
+.mians .modulex .sxp_ylian .title span {
+  float: left;
+  color: !important;
+}
+.mians .modulex .sxp_ylian .portalcontent {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.mians .modulex .sxp_ylian .portalcontent .portalsummary {
+  margin-bottom: 10px;
+}
+.mians .modulex .sxp_ylian .portalcontent .portalsummary ul {
+  zoom: 1;
+  padding-left: 10px;
+}
+.mians .modulex .sxp_ylian .portalcontent .portalsummary ul li {
+  float: left;
+  margin-right: 5px;
+  width: 88px;
+  height: 1.5em;
+  overflow: hidden;
+}
+.mians .modulex .sxp_ylian .portalcontent .portalsummary ul li a {
+  float: left;
+  font-size: 13px;
+  line-height: 30px;
+  height: 30px;
+  color: #4A4A4A;
+  text-decoration: none;
+}
+.mians .sxp_ft {
+  width: 100%;
+  background: #0F86E8;
+  padding-top: 20px;
+}
+.mians .sxp_ft .ft {
+  color: #666;
+  border: none;
+  line-height: 30px;
+  padding: 10px 0 30px;
+}
+.mians .sxp_ft .ft .flk {
+  text-align: center;
+  color: #FFF;
+  font-size: 14px;
+}
+.mians .sxp_ft .ft .flk .sxp_p {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+.mians .sxp_ft .ft .flk .sxp_p strong a {
+  color: #fff;
+}
+.mians .sxp_ft .ft .flk .sxp_p strong a img {
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=forumPage.css.map */

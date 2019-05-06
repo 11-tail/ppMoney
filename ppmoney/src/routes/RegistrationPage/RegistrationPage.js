@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './RegistrationPage.css';
 import { withRouter } from 'dva/router';
-var ReactDOM = require('react-dom');
+// var ReactDOM = require('react-dom');
 
 class RegistrationPage extends React.Component {
   constructor (props) {

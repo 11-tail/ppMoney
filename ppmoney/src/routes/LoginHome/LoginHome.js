@@ -4,9 +4,12 @@ import { connect } from 'dva';
 
 import LoginPage from '../LoginPage/LoginPage';
 import LoginToRegister from '../../components/LoginToRegister/LoginToRegister';
-const LonginHome = () => {
+import PPhead from '../../components/PPheade/PPhead';
+
+const LoginHome = () => {
   return (
     <div>
+        <PPhead/>
         <LoginPage />
         <LoginToRegister />
 
@@ -14,7 +17,8 @@ const LonginHome = () => {
   );
 };
 
-LonginHome.propTypes = {
+LoginHome.propTypes = {
 };
 
-export default connect()(LonginHome);
+export default connect()(LoginHome);
+

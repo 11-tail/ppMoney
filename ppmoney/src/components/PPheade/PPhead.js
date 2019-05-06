@@ -1,5 +1,5 @@
 import React from 'react';
-import {Affix} from 'antd';
+// import {Affix} from 'antd';
 import './PPheade.less'
 
 class Header extends React.Component {
@@ -57,7 +57,7 @@ class Header extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <Affix >
+                    {/* <Affix > */}
                         <div className="g-nav-bar cf" id="g-nav-bar" style={{ top: -44 }}>
                             <div className="g-nav">
                                 <ul className="nav-c cf" id="g-navList">
@@ -94,7 +94,7 @@ class Header extends React.Component {
                                 <div className="line"></div>
                             </div>
                         </div>
-                    </Affix>
+                    {/* </Affix> */}
                 </div>
                 {/* 主体main */}
                 {/* <div className="mainless">

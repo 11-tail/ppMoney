@@ -49,7 +49,6 @@ export default {
             return { ...state, ...action.payload };
         },
         
-
     },
 
 };
