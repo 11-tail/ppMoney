@@ -7,7 +7,7 @@ import PPheade from '../../components/PPheade/PPhead'
 import PPfooter from '../../components/PPfooter/PPfooter'
 import Sociologys from '../../components/Sociology/Sociologys'
 import { Carousel } from 'antd';
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 export default class LendPage extends React.Component {
     constructor(props) {
         super(props)

@@ -28,7 +28,7 @@ class LendRights extends Component {
     }
 
 
-   
+
     render() {
         return (
             <div>
@@ -39,55 +39,19 @@ class LendRights extends Component {
                         <div className="paperTit">
                             <span className="paperTit2">借款人信息</span>
                         </div>
-                        <div className="textAct">
+                        <div className="textaaa">
                             <ul>
-                                {/* <li className={LendRight.fc}>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '50px', overflow: 'hidden' }}>王*</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '120px', overflow: 'hidden' }}>证件号码：3*********</span>
-                                    <span style={{ width: '90px', display: 'block', float: 'left', marginRight: '10px', overflow: 'hidden' }}>用途：消费分期</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '90px', overflow: 'hidden' }}>期限：12个月</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '150px', overflow: 'hidden' }}>借款金额：8100元</span>
-                                </li>
-                                <li className={LendRight.fc}>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '50px', overflow: 'hidden' }}>王*</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '120px', overflow: 'hidden' }}>证件号码：3*********</span>
-                                    <span style={{ width: '90px', display: 'block', float: 'left', marginRight: '10px', overflow: 'hidden' }}>用途：消费分期</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '90px', overflow: 'hidden' }}>期限：12个月</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '150px', overflow: 'hidden' }}>借款金额：8100元</span>
-                                </li>
-                                <li className={LendRight.fc}>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '50px', overflow: 'hidden' }}>王*</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '120px', overflow: 'hidden' }}>证件号码：3*********</span>
-                                    <span style={{ width: '90px', display: 'block', float: 'left', marginRight: '10px', overflow: 'hidden' }}>用途：消费分期</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '90px', overflow: 'hidden' }}>期限：12个月</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '150px', overflow: 'hidden' }}>借款金额：8100元</span>
-                                </li>
-                                <li className={LendRight.fc}>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '50px', overflow: 'hidden' }}>王*</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '120px', overflow: 'hidden' }}>证件号码：3*********</span>
-                                    <span style={{ width: '90px', display: 'block', float: 'left', marginRight: '10px', overflow: 'hidden' }}>用途：消费分期</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '90px', overflow: 'hidden' }}>期限：12个月</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '150px', overflow: 'hidden' }}>借款金额：8100元</span>
-                                </li>
-                                <li className={LendRight.fc}>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '50px', overflow: 'hidden' }}>王*</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '120px', overflow: 'hidden' }}>证件号码：3*********</span>
-                                    <span style={{ width: '90px', display: 'block', float: 'left', marginRight: '10px', overflow: 'hidden' }}>用途：消费分期</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '90px', overflow: 'hidden' }}>期限：12个月</span>
-                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '150px', overflow: 'hidden' }}>借款金额：8100元</span>
-                                </li> */}
-                                {/* {this.renderTabbar()} */}
                                 {
                                     this.props.borrower.tabBars.map((item) => {
-                                        return  <li className="fc"  key={item.key}>
-                                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '50px', overflow: 'hidden' }}>{item.name}</span>
-                                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '120px', overflow: 'hidden' }}>{item.idcard}</span>
-                                                    <span style={{ width: '90px', display: 'block', float: 'left', marginRight: '10px', overflow: 'hidden' }}>{item.consumption}</span>
-                                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '90px', overflow: 'hidden' }}>{item.periods}</span>
-                                                    <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '150px', overflow: 'hidden' }}>{item.money}</span>
-                                                </li>
-                                          
-                                        
+                                        return <li className="fc" key={item.key}>
+                                            <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '50px', overflow: 'hidden' }}>{item.name}</span>
+                                            <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '120px', overflow: 'hidden' }}>{item.idcard}</span>
+                                            <span style={{ width: '90px', display: 'block', float: 'left', marginRight: '10px', overflow: 'hidden' }}>{item.consumption}</span>
+                                            <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '90px', overflow: 'hidden' }}>{item.periods}</span>
+                                            <span style={{ display: 'block', float: 'left', marginRight: '10px', width: '150px', overflow: 'hidden' }}>{item.money}</span>
+                                        </li>
+
+
                                     })
                                 }
                             </ul>
@@ -165,6 +129,6 @@ class LendRights extends Component {
 }
 
 
-export default connect((state)=>{
+export default connect((state) => {
     return state
 })(LendRights)

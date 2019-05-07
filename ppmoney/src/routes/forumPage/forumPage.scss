@@ -1,1 +1,518 @@
-    
+.mians{
+    width: 100%;
+    background-color: #f1f2f6;
+    background-size: 100% 100%;
+    clear: both;
+    .sxp_dui{
+        width: 980px;
+        height: 360px;
+        margin: auto;
+        clear: both;
+        background-color: #FFF;
+        .dui_focus{
+            width: 630px;
+            height: 330px;
+            position: relative;
+            overflow: hidden;
+            background-color: #FFF;
+            padding: 15px;
+            float: left;
+            
+        }
+        .sxp_duir{
+            float: right;
+            width: 270px;
+            background: #fff;
+            padding: 15px;
+            height: 330px;
+            overflow: hidden;
+            .sxp_duir{
+                word-break: break-all;
+                word-wrap: break-word;
+                .frameDbbWzc{
+                    background-image: none !important;
+                    border: 0 none !important;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    border-width: 0px;
+                    height: auto;
+                    .frameDbbWzc_left{
+                        word-break: break-all;
+                        word-wrap: break-word;
+                        dl{
+                            zoom: 1;
+                            dt{
+                                text-align: center;
+                                padding: 8px 0 5px;
+                                font-weight: 700;
+                                a{
+                                        font-size: 18px;
+                                        color: #333;
+                                        line-height: 40px;
+
+                                }
+                            }
+                            dd{
+                                width: 100%;
+                                color: #666;
+                                line-height: 24px;
+                                font-size: 12px;
+                                padding: 0 15px 0 15px;                               
+                            
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    .clear{
+        clear: both;
+        margin: auto;
+        height: 20px;
+    }
+
+    .modulex{
+        width: 980px;
+        margin: auto;
+        clear: both;
+        overflow: hidden;
+        .modulexleft {
+            width: 660px;
+            position: relative;
+            overflow: hidden;
+            float: left;
+
+            .sxp_hotlu{
+                width: 620px;
+                height: 235px;
+                float: left;
+                overflow: hidden;
+                background: #FFF;
+                margin-bottom: 20px;
+                padding: 5px 19px 20px 20px;
+                border-bottom: 1px solid #EEE;
+                border-right: 1px solid #EEE;
+                box-shadow: 1px 1px 0px 0px #F5F5F5;
+                h2{
+                    width: 620px;
+                    height: 60px;
+                    line-height: 60px;
+                    float: left;
+                    overflow: hidden;
+                    
+                }
+                dl{
+                    width: 620px;
+                    height: 175px;
+                    overflow: hidden;
+                    position: relative;
+                    float: left;
+                    dd{
+                        width: 300px;
+                        height: 175px;
+                        float: left;
+                        overflow: hidden;
+                    }
+                    dt{ 
+                        width: 300px;
+                        height: 175px;
+                        float: right;
+                        overflow: hidden;
+                        font-weight: normal;
+                        padding: 0;
+                        a{
+                            color: #667EBD; 
+                        }
+                        span{ float: right;
+                            .hotlu3{
+                                display: inline-block;
+                                height: 18px;
+                                line-height: 18px;
+                                margin-left: 5px;
+                                padding-left: 22px;
+                                color: #AAB2BD;
+                                font-size: 12px;
+                                font-style:normal;
+                                background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/newsIcon.png) no-repeat scroll 0 0 transparent;
+                            }
+                            .hotlu4{
+                                display: inline-block;
+                                height: 18px;
+                                line-height: 18px;
+                                margin-left: 5px;
+                                font-size: 12px;
+                                padding-left: 22px;
+                                color: #AAB2BD;
+                                font-style:normal;
+                                background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/newsIcon.png) no-repeat scroll 0 -36px transparent;
+                            }
+                        }
+                        .hotlu1{
+                            color: #BEBDBD;
+                            width: 300px;
+                            height: 18px;
+                            line-height: 16px;
+                            float: left;
+                            font-size: 12px;
+                            overflow: hidden;
+                            margin-bottom: 25px;
+                        }
+                        .hotlu2{
+                            width: 300px;
+                            height: 120px;
+                            line-height: 24px;
+                            color: #706F6F;
+                            font-size: 14px;
+                            font-weight: normal;
+                            float: left;
+                            padding-bottom: 12px;
+                            overflow: hidden;
+                            position: relative;
+                            a{
+                                padding-left: 15px;
+                                font-size: 12px;
+                                color: #667EBD;
+                                font-weight: normal;
+                                position: absolute;
+                                right: 0;
+                                bottom: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        
+        .modulexright {
+            float: right;
+            width: 300px;
+            overflow: hidden;
+            .blank{
+                width: 300px;
+                float: left;
+                height: 30px;
+                margin-bottom: 20px;
+                background: #FFF;
+            }
+            .sxpright_1{
+                width: 300px;
+                height: 410px;
+                float: left;
+                overflow: hidden;
+                margin-bottom: 20px;
+                background: #FFF;
+                h2{
+                    color: #333;
+                    font-size: 18px;
+                    float: left;
+                    width: 270px;
+                    height: 52px;
+                    line-height: 52px;
+                    font-weight: normal;
+                    padding: 0 15px;
+                    border-bottom: 1px solid #F0F0F0;
+                    margin-bottom: 8px;
+                }
+                .sxpztarea{
+                    height: 318px;
+                    width: 270px;
+                    float: left;
+                    overflow: hidden;
+                    padding: 11px 15px 20px 15px;
+                    dl{
+                        margin: 0 0 24px 0;
+                        padding: 0;
+                        width: 270px;
+                        height: 90px;
+                        overflow: hidden;
+                        .m{
+                            margin: 0 15px 0 0;
+                            padding: 0;
+                            float: left;
+                        }
+                        dt{ 
+                            padding: 0 0 10px 0;
+                            a{
+                                font-size: 16px;
+                                font-weight: normal;
+                                line-height: 24px;
+                                color: #333;
+                            }
+                        }
+                        dd{
+                            font-size: 12px;
+                            color: #999;
+                            line-height: 26px;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            .sxpright_2{
+                width: 300px;
+                height: 422px;
+                float: left;
+                overflow: hidden;
+                background: #FFF;
+                margin-bottom: 20px;
+                h2{
+                    color: #333;
+                    font-size: 18px;
+                    float: left;
+                    width: 270px;
+                    height: 52px;
+                    line-height: 52px;
+                    font-weight: normal;
+                    padding: 0 15px;
+                    border-bottom: 1px solid #F0F0F0;
+                    margin-bottom: 8px;
+                }
+                .sxpcaiarea{
+                    height: 360px;
+                    float: left;
+                    width: 245px;
+                    overflow: hidden;
+                    padding: 0 15px 0 40px;
+                    background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/sxp_klist.png) no-repeat scroll 15px 12px transparent;
+                    ul{
+                        list-style: none;
+                        li{
+                            width: 245px;
+                            height: 36px;
+                            line-height: 36px;
+                            float: left;
+                            overflow: hidden;
+                            overflow: hidden;
+                            a{
+                                font-size: 14px;
+                                color: #333;
+                                text-decoration: none;
+                            }   
+                        }
+                    }
+                }
+            }
+            .sxpright_3{
+                width: 300px;
+                height: 425px;
+                float: left;
+                overflow: hidden;
+                background: #FFF;
+                margin-bottom: 20px;
+                h2{
+                    color: #333;
+                    font-size: 18px;
+                    float: left;
+                    width: 270px;
+                    height: 52px;
+                    line-height: 52px;
+                    font-weight: normal;
+                    padding: 0 15px;
+                    border-bottom: 1px solid #F0F0F0;
+                    margin-bottom: 8px;
+                }
+                .sxpcaiarea{
+                    height: 360px;
+                    float: left;
+                    width: 245px;
+                    overflow: hidden;
+                    padding: 0 15px 0 40px;
+                    background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/sxp_klist.png) no-repeat scroll 15px 12px transparent;
+                    ul{
+                        list-style: none;
+                        li{
+                            width: 245px;
+                            height: 36px;
+                            line-height: 36px;
+                            float: left;
+                            overflow: hidden;
+                            overflow: hidden;
+                            a{
+                                font-size: 14px;
+                                color: #333;
+                                text-decoration: none;
+                            }   
+                        }
+                    }
+                }
+            }
+            .sxpright_4{
+                width: 300px;
+                height: 413px;
+                float: left;
+                overflow: hidden;
+                background: #FFF;
+                margin-bottom: 20px;
+                h2{
+                    color: #333;
+                    font-size: 18px;
+                    float: left;
+                    width: 270px;
+                    height: 52px;
+                    line-height: 52px;
+                    font-weight: normal;
+                    padding: 0 15px;
+                    border-bottom: 1px solid #F0F0F0;
+                    margin-bottom: 8px;
+                }
+                .sxpcaiarea{
+                    height: 360px;
+                    float: left;
+                    width: 245px;
+                    overflow: hidden;
+                    padding: 0 15px 0 40px;
+                    background: url(https://bbs.ppmoney.com/template/sxp_keji_k13/image/sxp_klist.png) no-repeat scroll 15px 12px transparent;
+                    ul{
+                        list-style: none;
+                        li{
+                            width: 245px;
+                            height: 36px;
+                            line-height: 36px;
+                            float: left;
+                            overflow: hidden;
+                            overflow: hidden;
+                            a{
+                                font-size: 14px;
+                                color: #333;
+                                text-decoration: none;
+                            }   
+                        }
+                    }
+                }
+            }
+            .sxpright_5{
+                width: 300px;
+                height: 298px;
+                float: left;
+                overflow: hidden;
+                background: #FFF;
+                margin-bottom: 20px;
+                h2{
+                    color: #333;
+                    font-size: 18px;
+                    float: left;
+                    width: 270px;
+                    height: 52px;
+                    line-height: 52px;
+                    font-weight: normal;
+                    padding: 0 15px;
+                    border-bottom: 1px solid #F0F0F0;
+                    margin-bottom: 8px;
+                }
+                .sxpgjcc{
+                    width: 285px;
+                    height: 205px;
+                    float: left;
+                    overflow: hidden;
+                    padding: 0 0 0 15px;
+                    a{
+                        display: inline-block;
+                        margin: 0 10px 15px 0;
+                        padding: 0 20px;
+                        background: #EEE;
+                        color: #333;
+                        font-size: 14px;
+                        height: 40px;
+                        line-height: 40px;
+                    }
+                }
+            }
+
+        } 
+        .sxp_ylian{
+            width: 980px;
+            height: 124px;
+            clear: both;
+            background: #fff;
+            h2{
+                color: #333;
+                font-size: 18px;
+                float: left;
+                width: 950px;
+                height: 52px;
+                line-height: 52px;
+                font-weight: normal;
+                padding: 0px 15px;
+                background: #FFF;
+            }
+            .title{
+                padding: 0 10px;
+                height: 32px;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 32px;
+                overflow: hidden;
+                span{
+                    float: left;
+                    // float:;
+                    // margin-left:px;
+                    // font-size:;
+                    color: !important;
+                }
+
+            }
+            .portalcontent{
+                word-break: break-all;
+                word-wrap: break-word;
+                .portalsummary{
+                    margin-bottom: 10px;
+                    ul{
+                        zoom: 1;
+                        padding-left: 10px;
+                        li{
+                            float: left;
+                            margin-right: 5px;
+                            width: 88px;
+                            height: 1.5em;
+                            overflow: hidden;
+                            a{
+                                float: left;
+                                font-size: 13px;
+                                line-height: 30px;
+                                height: 30px;
+                                color: #4A4A4A;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+  .sxp_ft{
+    width: 100%;
+    background: #0F86E8;
+    padding-top: 20px;
+    .ft{
+        color: #666;
+        border: none;
+        line-height: 30px;
+        padding: 10px 0 30px;
+        .flk{
+            text-align: center;
+            color: #FFF;
+            font-size: 14px;
+            .sxp_p{
+                
+                font-size: 14px;
+                height: 30px;
+                line-height: 30px;
+                strong{
+                    a{
+                            color: #fff; 
+                            img{
+                                padding-left:10px;
+                                vertical-align: middle;
+                            }
+                }
+                
+            }
+        }
+        }
+    }
+  }
+}

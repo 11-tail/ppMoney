@@ -1,7 +1,7 @@
 import React from 'react';
 import {Affix} from 'antd';
 import './PPheade.less'
-
+import { Link } from 'dva/router';
 class Header extends React.Component {
     constructor(props) {
         super(props);
@@ -32,8 +32,8 @@ class Header extends React.Component {
 
                             </ul>
                             <ul id="topLoginState" className="site-nav-r fr">
-                                <li className="menu"><a href="" title="登录">登录</a>|</li>
-                                <li className="menu"><a href="" title="注册">注册</a>|</li>
+                                <Link className="menu" to="longinHome"><a href="" title="登录">登录</a>|</Link>
+                                <Link className="menu" to="registerHome"><a href="" title="注册">注册</a>|</Link>
                                 <li className="menu"><a href="" target="_blank" title="帮助中心">帮助中心</a>|</li>
 
                             </ul>
@@ -53,7 +53,7 @@ class Header extends React.Component {
                                 </a>
                             </div>
                             <div className="fr">
-                                <a className="btn-customer" href="/customer">我的账户</a>
+                                <Link className="btn-customer" to="longinHome">我的账户</Link>
                             </div>
                         </div>
                     </div>
@@ -62,22 +62,22 @@ class Header extends React.Component {
                             <div className="g-nav">
                                 <ul className="nav-c cf" id="g-navList">
 
-                                    <li className="item item-01 active"><a className="" >
+                                    <Link className="item item-01 active" to="/"><a className="" >
                                         首页
                                     </a>
-                                    </li>
-                                    <li className="item subi down">
+                                    </Link>
+                                    <Link className="item subi down " to="loan">
                                         <a className="">我要出借</a>
-                                    </li>
-                                    <li className="item">
+                                    </Link>
+                                    <Link className="item" to="lend">
                                         <a className="" href="">我要借款</a>
-                                    </li>
-                                    <li className="item down">
+                                    </Link>
+                                    <Link className="item down" to="brand">
                                         <a className="">品牌新闻</a>
-                                    </li>
-                                    <li className="item down">
+                                    </Link>
+                                    <Link className="item down" to="sociology">
                                         <a className="">社会责任</a>
-                                    </li>
+                                    </Link>
                                     <li className="item down">
                                         <a className="">信息披露</a>
                                     </li>
@@ -87,9 +87,9 @@ class Header extends React.Component {
                                     <li className="item item-02 fr">
                                         <a className="">会员中心</a>
                                     </li>
-                                    <li className="item item-01 g-forum fr">
+                                    <Link className="item item-01 g-forum fr" to="forumPage">
                                         <a className="">论坛</a>
-                                    </li>
+                                    </Link>
                                 </ul>
                                 <div className="line"></div>
                             </div>
