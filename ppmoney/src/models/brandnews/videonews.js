@@ -30,8 +30,8 @@ export default {
             thing: "董事长陈宝国、CEO胡新等集团数位高管讲述平台风控、运营、合规多方面的发展现状。",
             datas: "2018-08-30"
         },{
-            img: "https://special.ppmoney.com/totoro/release/static/20162002.html",
-            url:"https://m-static.ppmoney.com/Content/Images/Upload/2019/20190305/3d52bdfe-c36c-42df-b887-ddd07ab06a2a.jpg",
+            img: "https://m-static.ppmoney.com/Content/Images/Upload/2019/20190305/3d52bdfe-c36c-42df-b887-ddd07ab06a2a.jpg",
+            url:"https://special.ppmoney.com/totoro/release/static/20162002.html",
             videoTit: "P粉故事教师篇",
             thing: "在PPmoney3500万用户中，教师是重要的组成部分。他们用心教书，也理性投资，是PPmoney优秀用户群像的代表之一。",
             datas: "2018-09-10"

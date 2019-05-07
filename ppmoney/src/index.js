@@ -11,6 +11,9 @@ const app = dva();
 // 3. Model
 app.model(require('./models/example').default);
 app.model(require('./models/lendpage/borrower').default);
+app.model(require('./models/brandnews/brandnews').default);
+app.model(require('./models/brandnews/videonews').default);
+app.model(require('./models/Sociology/sociolist').default);
 
 // 4. Router
 app.router(require('./router').default);
